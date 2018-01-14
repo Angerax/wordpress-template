@@ -1,0 +1,183 @@
+/*
+Theme Name: Thème complet
+Theme URI: https://dormal.bes-webdeveloper-seraing.be/theme-complet.html
+Author: Olivier Dormal
+Author URI: https://dormal.bes-webdeveloper-seraing.be
+Description: Mon premier thème pour wordpress 4
+Version: 2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: simple,menu,widget,white,grey
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*styles généraux*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font: .8em Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*Le conteneur principal. */
+#content{
+    width:960px;
+    margin:0 auto;
+}
+
+/* Styles pour le titre et le slogan*/
+#slogan-title{
+    border-top:1px solid gray;
+}
+
+#slogan-title a {
+    text-decoration:none; 
+}
+
+/*Menus principal et secondaire */
+#primary, #secondary{
+    border-top: 1px solid gray;
+    height: 30px;
+}
+
+#secondary{
+    border-bottom: 1px solid gray;
+}
+
+#primary ul, #secondary ul{
+    list-style:none;
+    margin:0;
+    padding: 0;
+}
+
+#primary a, #secondary a{
+    text-decoration: none;
+}
+
+#primary li, #secondary li{
+    position: relative;
+    float: left;
+    width:120px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+#primary ul ul, #secondary ul ul{
+    display: none;
+}
+
+#primary ul li:hover ul, #secondary ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+/*footer*/
+
+footer{
+    padding: 5px;
+    border-top: 
+}
+
+footer p.contentinfo{
+    font-size: .75em;
+    font-variant: small-caps;
+}
+
+/*sidebar droite*/
+
+aside{
+    display: table-cell;
+    width: 189px;
+    padding-left: 10px;
+}
+
+aside ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+/*contenu de la page d'accueil*/
+#posts{
+    display: table-cell;
+    width: 739px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+div.one-post h2{
+    font-variant: small-caps;
+    color: gray;
+}
+
+#posts div img{
+    border: 5px solid gray;
+}
+
+#posts p.wp-caption-text{
+    font-variant: small-caps;
+    color: gray;
+}
+
+/*articles*/
+
+#single-post{
+    display:table-cell;
+    width:739px;
+    padding:10px;
+    border-right:1px solid gray;
+}
+
+#single-post p.tags{
+    font-variant: small-caps;
+    color:gray;
+}
+
+#single-post div.prev-next{
+    margin-bottom: 30px;
+}
+
+#single-post div.prev-post{
+    float:left;
+}
+
+#single-post div.next-post{
+    float: right;
+}
+
+#comments{
+    border-top: thin dotted gray;
+}
+
+/*styles pour les pages de contenu*/
+
+#pages, #category, #tags, #archives, #search, #author, #error404{
+    display: table-cell;
+    width:739px;
+    padding: 10px;
+    border-right:1px solid gray;
+}
+
+/*pour la page des catégories*/
+
+#category h2 a{
+    text-decoration: none;
+    font-variant: samll-caps;
+}
+
+#category p.excerpt{
+    margin-left: 20px;
+    padding-left: 5px;
+    border-left: 1px dotted gray;
+}
+
+/*styles pour les articles seuls*/
+
+#single-post ul.post-meta{
+    list-style: none;
+    margin: 0;
+}
