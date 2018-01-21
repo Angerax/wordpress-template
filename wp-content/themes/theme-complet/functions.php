@@ -53,8 +53,16 @@ add_theme_support('post-thumbnails');
  * See: https://codex.wordpress.org/Post_Formats
  */
 add_theme_support('post-formats', array(
+    
+    'aside',
+    'chat',
+    'gallery',
+    'image',
+    'link',
     'quote',
     'status',
+    'video',
+    'audio'
 ));
 
 ?>

@@ -181,3 +181,46 @@ div.one-post h2{
     list-style: none;
     margin: 0;
 }
+
+/*pour les nouveaux format d'articles*/
+#single-post h2.quote{
+    text-align: : center;
+    font-variant: : small-caps;
+    border-bottom: 1px dotted gray;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#single-post h2.status{
+    font-style: italic;
+    border-left: 5px solid #333;
+    padding-left: 10px;
+    background-color: #ccc;
+}
+
+#single-post div.status img{
+    float: left;
+    margin-right: 10px;
+    border: 5px solid #e5e5e5;
+}
+
+/*Les articles mis en avant*/
+div.sticky{
+    padding: 10px;
+    background: lightyellow;
+    border: 1px solid gray;
+}
+
+/*pour le modèle d Page simple*/
+#simple-page{
+    padding: 10px;
+}
+
+#simple-page h2{
+    font-variant: small-caps;
+}
+
+#simple-page div.my-page{
+    padding-left: 30px;
+    border-left: 2px dotted gray;
+}

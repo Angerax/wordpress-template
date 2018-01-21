@@ -1,0 +1,20 @@
+/*
+Theme Name: Theme complet Child
+Theme URI: https://dormal.bes-webdeveloper-seraing.be/theme-complet.html
+Author: Olivier Dormal
+Author URI: https://dormal.bes-webdeveloper-seraing.be
+Description: C'est un thème enfant du thème parent Theme Complet
+Version: 2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: simple,menu,widget,white,grey
+Template: theme-complet
+*/
+
+/*titre du site dans l'en-tête*/
+
+h1.site-title a{
+    color: purple;
+    font-style: italic;
+    font-size: 45px;
+}
